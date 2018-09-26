@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 2px;
+}
+.navbar{
+	background: rgba(50, 195, 255, 1);
+}
+.frame{
+	margin-bottom: 50px;
+}
+footer{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	background-color:  #32c3ff;
+}
+.myframe{
+	width: 100%;
+	height: 100%;
+}

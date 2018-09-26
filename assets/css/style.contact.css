@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 2px;
+}
+.navbar{
+	background: rgba(50, 195, 255, 1);
+}
+body{
+	overflow-x: hidden;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	background-color:  #32c3ff;
+}
+.container{
+	width: 100%;
+}
+#submit{
+	color: black;
+}
+#submit:hover{
+	background-color:  #32c3ff;
+}

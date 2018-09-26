@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 2px;
+}
+.navbar{
+	background: rgba(50, 195, 255, 1);
+}
+.card{
+	background-color: #32c3ff;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.card:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+#mymodal{
+	background: url(../images/z1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 1s;
+}
+#mymodal2{
+	background: url(../images/z11.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 1s;
+}
+#mymodal3{
+	background: url(../images/st2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 1s;
+}
+.modal-content{
+	margin-top: 100px;
+	background: rgba(50, 195, 255, .5);
+}
+.modal-body{
+	width: 200px;
+	height: 250px;
+}
+footer{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	background-color:  #32c3ff;
+}
+.modal-form{
+	margin-top: 20px;
+}
+.input{
+	margin: 20px;
+	border-radius: 5px;
+}
+.modal-title{
+	text-align: center;
+}
