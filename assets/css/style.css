@@ -2,43 +2,97 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Acme', sans-serif;
+	overflow-x: hidden;
 }
-
-.jumbotron hr{
-	display: block;
-	height: 2px;
-	margin: 1em 0;
-	padding: 0;
-}
-
-.jumbotron{
-	background-color: transparent;
-	height: 100vh;
-	padding-top: 25vh;
-	padding-bottom: 25vh;
-	margin: 0;
-}
-.jumbotron h1{
-	color: #e9e9e9;
-	letter-spacing: 3px;
-	
-}
-#jumbotron-landing{
-	background-color: #141414;
-	margin: 0 auto;
+.mother-container{
+	background-image: url(../images/main.jpg);
 	width: 100%;
+/*	height: 100vh;*/
+
 }
-#landing-button{
-	font-weight: 700;
-	width: 300px;
+#container1{
+	height: 100vh;
 }
-#landing-button:hover{
-	color: #141414;
-	font-weight: 700;
-	transition: 1s;
+#container2{
+	height: 100vh;
 }
-  
-.slider{
-	height: 600px;
+#container3{
+	height: 100vh;
+}
+.card{
+	background-color:  #32c3ff;
+}
+.navbar{
+	background-color: rgba(0,0,0,0);
+	margin-bottom: 50px;
+	/*position: fixed;*/
+	/*justify-content: center;*/
+}
+.navbar-brand{
+	font-family: 'Knewave', cursive;
+	font-size: 2em;
+}
+.nav-item{
+	font-weight: 800px;
+	border-radius: 10px;
+}
+.nav-item:hover{
+	background: linear-gradient(90deg, rgba(3, 169, 244, .2), rgba(255, 207, 36, .2), rgba(0, 255, 162, .2), rgba(0, 255, 0, .2));
+
+}
+.jumbotron{
+	margin: 50px;
+	padding: 50px;
+	border-radius: 10px;
+	/*background-color: rgba(0,0,0,.5);*/
+	background: linear-gradient(90deg, rgba(3, 169, 244, .2), rgba(255, 207, 36, .2), rgba(0, 255, 162, .2), rgba(0, 255, 0, .2));
+	box-shadow: 0 0 50px rgba(151, 166, 40, 1);
+}
+.me{
+	width: 20%;
+	height: 20%;
+	margin: 10px;
+	border-radius: 20px;
+	float: left;
+}
+/*.jumbotron:hover{
+	filter: blur(30px);
+}*/
+
+.display, h3, p, h2, h1{
+	color: white;
+	overflow: hidden;
+	/*color: #12001a;*/
+	/*position: fixed;*/
+	/*float: left;*/
+}
+.display{
+	/*margin-left: 5px;*/
+}
+#email{
+	text-decoration: none;
+	color: white;
+}
+footer {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+}
+.btn{
+	width: 100px;
 }
 
+img{
+	width: 100px;
+	height: 100px;
+}
+.media1{
+	width: 50px;
+	height: 50px;
+}
+.up{
+	width: 40px;
+	height: 40px;
+	margin: 20px;
+}

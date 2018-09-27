@@ -5,8 +5,16 @@
 	font-family: 'Bree Serif', serif;
 	letter-spacing: 2px;
 }
+/*.jumbotron{
+	background: url(../images/zam.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	border-radius: 0;
+}*/
 .navbar{
 	background: rgba(50, 195, 255, 1);
+	/*height: 80px;*/
 }
 .card{
 	background-color: #32c3ff;

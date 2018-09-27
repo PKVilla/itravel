@@ -5,16 +5,16 @@
 	font-family: 'Bree Serif', serif;
 }
 
-.logo{
+/*.logo{
 	width: 50px;
 	height: 70px;
 }
-
-.jumbotron{
+*/
+/*.jumbotron{
 	background: url(../images/vinta.jpg);
 	height: 90vh;
 	border-radius: 0;
-}
+}*/
 #landing-about{
 	/*font-family: 'Cedarville Cursive', cursive;*/
 	font-family: 'Permanent Marker', cursive;
@@ -42,8 +42,8 @@ hr{
 }
 #mission{
 	height: 100%;
-	background-color: #141414;
-	color: #f2f2f2;
+	background-color:  #32c3ff;
+	color: #141414;
 }
 
 .about-tags{
