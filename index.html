@@ -18,7 +18,7 @@
 </head>
 <body>
 	<main class="mother-container fluid">
-		<nav class="navbar navbar-expand-lg navbar-dark position-sticky">
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 		  <a class="navbar-brand animated zoomIn" href="#">Pol Kharlo Villa</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -30,10 +30,10 @@
 		        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
 		      </li>
 		       <li class="nav-item">
-		        <a class="nav-link" href="index.html">About</a>
+		        <a class="nav-link" href="#container1">About</a>
 		      </li>
 		       <li class="nav-item">
-		        <a class="nav-link" href="#container3">Portfolio</a>
+		        <a class="nav-link" href="#container3">Projects</a>
 		      </li>
 		       <li class="nav-item">
 		        <a class="nav-link" href="#container2">Skills</a>
@@ -45,17 +45,28 @@
 		  </div>
 		</nav>
 	
-		<div id="container1">
+		<div id="container0">
 			<div class="row" id="home">
 				<div class="col-lg-1"></div>
-				<div class="col-lg-10 col-md-12 col-sm-12">
-					<div class="jumbotron jumbotron-fluid clear">
+				<div class="col-lg-12 col-md-6 col-sm-6">
+					<div class="jumbotron jumbotron-fluid jumbo">
+	    				<h1 class="display1 clear">Welcome to my portfolio!!!</h1>
+	    				<!-- <h2 class="display clear">Fullstack Web Developer</h2> -->
+	    				
+					</div>
+			</div>
+		</div>
+		</div>
+			<div id="container1">
+			<div class="row" id="home">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-10 col-md-6 col-sm-6">
+					<div class="jumbotron jumbotron-fluid jumbo1">
 	  					<img class="me" src="assets/images/me.png">
 	    				<h1 class="display clear">Pol Kharlo Villa</h1>
-	    				<h2 class="display clear">Fullstack Web Developer</h2>
-	    				<br>
+	    				<!-- <h2 class="display clear">Fullstack Web Developer</h2> -->
 	    				<h3>About Me</h3>
-	    				<p>My Name is Pol Kharlo D. Villa, I am 26 years of age. A Graduate of Bachelor of Science in Computer Science. I'm new to the world of web development, and currently focusing on HTML5, CSS3 and Javascript through Tuitt Coding Bootcamp.</p>
+	    				<p>My Name is Pol Kharlo D. Villa, I am 26 years of age. A Graduate of Bachelor of Science in Computer Science. I'm new to the world of web development, and currently focusing on HTML5, CSS3 and Javascript and soon to be a fullstack web developerthrough Tuitt Coding Bootcamp .</p>
 					</div>
 				</div>	
 			</div>
@@ -64,8 +75,8 @@
 				<div class="row" id="home">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10 col-md-12 col-sm-12">
-						<div class="jumbotron jumbotron-fluid clear">
-		    				<h1 class="text-center">Skills</h1>
+						<div class="jumbotron jumbotron-fluid jumbo">
+		    				<!-- <h1 class="text-center">Skills</h1>
 	  					<h2>Html</h2>
 	  					<div class="progress">
 						  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%</div>
@@ -85,20 +96,56 @@
 	  					<h2>PHP</h2>
 	  					<div class="progress">
 						  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
+						</div> -->
+
+						<div class="center">
+							<h1 class="h1">Skills</h1>
+							<div class="skillbox">
+								<p>HTML</p>
+								<p>70%</p>
+								<div class="skill">
+									<div class="skilllevel1"></div>
+								</div>
+							</div>
+							<div class="skillbox">
+								<p>CSS</p>
+								<p>65%</p>
+								<div class="skill">
+									<div class="skilllevel2"></div>
+								</div>
+							</div>
+							<div class="skillbox">
+								<p>Javascript</p>
+								<p>55%</p>
+								<div class="skill">
+									<div class="skilllevel3"></div>
+								</div>
+							</div>
 						</div>
 						</div>
 					</div>	
 				</div>
 			</div>
-				<div id="container3">
+				<div id="container3" class="mt-10">
 					<div class="row" id="home">
 						<div class="col-lg-1"></div>
-						<div class="col-lg-10 col-md-12 col-sm-12">
+						<div class="col-lg-5 col-md-12 col-sm-12">
 							<div class="jumbotron jumbotron-fluid">
-								<img src="assets/images/i.png">
+								<!-- <img src="assets/images/i.png">
 			    				<h1 class="display clear">iTravel</h1>
 			    				<a href="landing.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Visit</a>
-
+ -->
+							<div class="card text-center">
+							  <div class="card-header">
+							    Project 1
+							  </div>
+							  <div class="card-body">
+							    <h5 class="card-title"><img src="assets/images/i.png"></h5>
+							    <h2 class="card-text">iTravel</h2>
+							    <a href="landing.html" class="btn btn-success">Visit</a>
+							  </div>
+							 
+							</div>
 			    				
 							</div>
 						</div>	

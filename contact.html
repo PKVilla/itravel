@@ -1,85 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<!-- Required meta tags -->
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.contact.css">
-     <link rel="icon" type="image/png" href="assets/images/i.png">
+    <link rel="icon" type="image/svg" href="assets/images/i.png">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<title>Contact</title>
-</head>
-<body>
-		<nav class="navbar navbar-expand-lg navbar-light mb-5">
-		  <a class="navbar-brand" href="#"><img class="i" src="assets/images/i.svg">Travel</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
 
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto w-100 justify-content-center">
-		      <li class="nav-item">
-		        <a class="nav-link font-weight-bold" href="home.html">Home</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link font-weight-bold" href="gallery.html">Gallery</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link font-weight-bold" href="about.html">About Us</a>
-		      </li>
-		       <li class="nav-item active">
-		        <a class="nav-link font-weight-bold" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
-		      </li>
-		    </ul>
-		  </div>
-	</nav>
-	
-	<div class="container">
-		<div class="row">
-			<!-- <div class="col-lg-1"></div> -->
-			<!-- <div class="col-lg-5 col-6 col-md-6">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.185596148136!2d122.0726793!3d6.9149295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f14c829f768c80c!2siTravel+Tourist+Lane!5e0!3m2!1sen!2sph!4v1537808750354" width="500" height="400" frameborder="0" allowfullscreen></iframe>
-			</div> --> <!-- for the google map -->
-			<div class="embed-responsive embed-responsive-16by9 col-lg-5">
-  			<iframe class="embed-responsive-item"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.185596148136!2d122.0726793!3d6.9149295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f14c829f768c80c!2siTravel+Tourist+Lane!5e0!3m2!1sen!2sph!4v1537808750354" frameborder="0" allowfullscreen ></iframe>
-			</div>
-			<div class="col-lg-1"></div>
-			<div class="col-lg-5">	
-				<form class="form-horizontal">
-					<legend>Contact Us</legend>
-					<div class="form-group">
-						<label class="col-lg-4" for="fullname">Full Name</label>
-						<input id="fullname" name="fullname" placeholder="full Name" class="form-control" type="text">
-					</div>
-					<div class="form-group">
-						<label class="col-lg-4" for="email">E-mail</label>
-						<input id="email" name="email" placeholder="email" class="form-control" type="email">
-					</div>
-					<div class="form-group">
-						<label class="col-lg-4" for="message">Message</label>
-						<textarea class="form-control" id="message" name="message" placeholder="type your message here"></textarea>
-					</div>
-					<div class="form-group">
-						<div class="col-lg-4">
-							<button id="submit" name="submit" class="btn btn-outline-info">Submit</button>
-						</div>
-					</div>
-				</form>
-			</div> <!-- for the contact form -->
-			<!-- <div class="col-lg-1"></div> -->
-		</div>
-	</div>
+    <title>Contact</title>
+  </head>
+  <body>
+     <!-- <section class="jumbotron mb-0">
+    </section> -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <a class="navbar-brand" href="#"><img class="i" src="assets/images/i.svg">Travel</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<footer class="fixed-bottom">Copyright &copy; 2018</footer>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-center">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" href="home.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="about.html">About Us</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="contact.html">Contat Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav> <!-- closing nav -->
 
+    <div class="container contact-form">
+      <h1>Contact Us</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Business Address</h2>
+          <p>PASAY RD., SAN ROQUE, ZAMBOANGA CITY – (062) 9555152
+            MAYOR JALDON STREET, CANELAR, ZAMBOANGA CITY  – (062) 9911174</p>
+            <br>
+            <h2>Contact details:</h2>
+            <p><h1>ERROLD LIM BAYONA</h1><p>
+            OPERATIONS MANAGER / SENIOR BUSINESS DEVELOPER
+            09177243199</p>
+            <p><h1>LEAH MARIE FABIAN</h1><p>
+            SALES AND MARKETING MANAGER
+            09956993274</p>
 
-</body>
+            <p>Email: info@itraveltouristlane.com</p>
+        </div>
+      <!-- </div> -->
+      <div class="col-lg-6">
+                 <div class="col-md-6">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>E-mail</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" rows="5"></textarea>
+                <br>
+                <div class="form-group">
+                <button class="btn btn-primary btn-block">Send</button>
+              </div>
+              </div>
+            </div>
+       <button type="button" class="btn btn-primary btttn" data-toggle="modal" data-target=".bd-example-modal-lg">See map</button>
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="embed-responsive embed-responsive-21by9">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.185596148136!2d122.0726793!3d6.9149295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f14c829f768c80c!2siTravel+Tourist+Lane!5e0!3m2!1sen!2sph!4v1538065687627" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+
+<footer>
+  <a href=""><img src="assets/images/fbb.png"></a>
+    <a href=""><img src="assets/images/instagram.png"></a>
+    <a href=""><img src="assets/images/twitter.png"></a>Copyright &copy;| 2018 <a href="#" data-toggle="modal" data-target="#mymodal">Disclaimer</a></footer>
+    
+    <div id="mymodal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <!-- <div class="modal-header">
+              <h5 class="modal-title">Enter your details here</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <input class="input" type="text" placeholder="Fullname">
+                <br>
+                <input class="input" type="text" placeholder="Email">
+                <br>
+                <input class="input" type="number" placeholder="Phone Number">
+              </form>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-primary">Book Now</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div> -->
+
+          <p>Contents are not owned and used for the purpose of creating a project requirements only</p>
+        </div>
+    </div></body>
 </html>
