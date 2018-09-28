@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -10,7 +10,7 @@
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
      <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.contact.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-home.css">
     <link rel="icon" type="image/svg" href="assets/images/i.png">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -31,7 +31,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto w-100 justify-content-center">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link font-weight-bold" href="home.html">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -40,18 +40,18 @@
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="about.html">About Us</a>
           </li>
-           <li class="nav-item">
+           <li class="nav-item active">
             <a class="nav-link font-weight-bold" href="contact.html">Contat Us</a>
           </li>
         </ul>
       </div>
     </nav> <!-- closing nav -->
 
-    <div class="container contact-form">
+    <div class="container-fluid contact-form">
       <h1>Contact Us</h1>
       <hr>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <h2>Business Address</h2>
           <p>PASAY RD., SAN ROQUE, ZAMBOANGA CITY – (062) 9555152
             MAYOR JALDON STREET, CANELAR, ZAMBOANGA CITY  – (062) 9911174</p>
@@ -66,9 +66,10 @@
 
             <p>Email: info@itraveltouristlane.com</p>
         </div>
-      <!-- </div> -->
-      <div class="col-lg-6">
-                 <div class="col-md-6">
+      
+          <!-- <div class="container"> -->
+            <div class="col-lg-4">
+            <form class="form-horizontal">
               <div class="form-group">
                 <label>Name</label>
                 <input type="text" class="form-control">
@@ -77,17 +78,19 @@
                 <label>E-mail</label>
                 <input type="text" class="form-control">
               </div>
-              <div class="form-group">
-                <label>Message</label>
-                <textarea class="form-control" rows="5"></textarea>
-                <br>
                 <div class="form-group">
-                <button class="btn btn-primary btn-block">Send</button>
-              </div>
-              </div>
-            </div>
-       <button type="button" class="btn btn-primary btttn" data-toggle="modal" data-target=".bd-example-modal-lg">See map</button>
+                  <label>Message</label>
+                  <textarea class="form-control" rows="5"></textarea>
+                  <br>
+                  <div class="form-group">
+                  <button class="btn btn-primary btn-block">Send</button>
 
+                  <button type="button" class="btn btn-primary form-control mt-2" data-toggle="modal" data-target=".bd-example-modal-lg">See map</button>
+                </div>
+          </div>
+          </form>
+        </div>
+        </div>
         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -98,9 +101,10 @@
           </div>
         </div>
           </div>
-        </div>
+      </div>
 
-<footer>
+
+<footer class="fixed-bottom">
   <a href=""><img src="assets/images/fbb.png"></a>
     <a href=""><img src="assets/images/instagram.png"></a>
     <a href=""><img src="assets/images/twitter.png"></a>Copyright &copy;| 2018 <a href="#" data-toggle="modal" data-target="#mymodal">Disclaimer</a></footer>

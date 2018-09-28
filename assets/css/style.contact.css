@@ -43,7 +43,7 @@ footer{
 }*/
 
   .contact-form{
-    background: rgba(50, 195, 255, .5);
+    background-color: red;
     color: white;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -66,3 +66,11 @@ footer{
   	margin-left: 15px;
   	width: 295px;
   }
+
+  p{
+  	font-size: 12px;
+  }
+
+.container{
+  background-image: url(../images/beach2.png);
+}
