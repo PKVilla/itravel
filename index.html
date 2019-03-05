@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/animate(1).css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -18,28 +18,28 @@
 </head>
 <body>
 	<main class="mother-container fluid">
-		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-dark">
 		  <a class="navbar-brand animated zoomIn" href="#">Pol Kharlo Villa</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto w-100 justify-content-center">
+		    <ul class="navbar-nav w-100 justify-content-center">
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+		        <a class="nav-link p-2" href="#">Home<span class="sr-only">(current)</span></a>
 		      </li>
 		       <li class="nav-item">
-		        <a class="nav-link" href="#container1">About</a>
+		        <a class="about nav-link p-2" href="#container1">About</a>
 		      </li>
 		       <li class="nav-item">
-		        <a class="nav-link" href="#container3">Projects</a>
+		        <a class="projects nav-link p-2" href="#container3">Projects</a>
 		      </li>
 		       <li class="nav-item">
-		        <a class="nav-link" href="#container2">Skills</a>
+		        <a class="skills nav-link p-2" href="#container2">Skills</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#contact">Contact</a>
+		        <a class="contact nav-link p-2" href="#contact">Contact</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -47,9 +47,9 @@
 	
 		<div id="container0">
 			<div class="row" id="home">
-				<div class="col-lg-1"></div>
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<div class="jumbotron jumbotron-fluid jumbo">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8 col-md-12 col-sm-12">
+					<div class="jumbotron jumbo">
 						<h1 class="display1 clear">Hello! I'm Pol</h1>
 	    				<h1 class="display1 clear">Welcome to my portfolio!!!</h1>
 	    				<!-- <h2 class="display clear">Fullstack Web Developer</h2> -->
@@ -58,16 +58,16 @@
 			</div>
 		</div>
 		</div>
-			<div id="container1">
+		<div id="container1">
 			<div class="row" id="home">
 				<div class="col-lg-1"></div>
 				<div class="col-lg-10 col-md-12 col-sm-12">
 					<div class="jumbotron jumbotron-fluid jumbo1">
-	  					<img class="me" src="assets/images/me.png">
-	    				<h1 class="display clear">Pol Kharlo Villa</h1>
+	  					<img class="me img-fluid" src="assets/images/me.png">
+	    				<h2 class="display clear">Pol Kharlo Villa</h2>
 	    				<!-- <h2 class="display clear">Fullstack Web Developer</h2> -->
 	    				<h3>About Me</h3>
-	    				<p>My Name is Pol Kharlo D. Villa, I am 26 years of age. A Graduate of Bachelor of Science in Computer Science. I'm new to the world of web development.<!-- , and currently focusing on HTML5, CSS3 and Javascript and soon to be a fullstack web developer through Tuitt Coding Bootcamp . --></p>
+	    				<p>My Name is Pol Kharlo D. Villa, 26 years of age. A Graduate of Bachelor of Science in Computer Science. I'm new to the world of web development.<!-- , and currently focusing on HTML5, CSS3 and Javascript and soon to be a fullstack web developer through Tuitt Coding Bootcamp . --></p>
 					</div>
 				</div>	
 			</div>
@@ -153,7 +153,7 @@
 					</div>	
 				</div>
 			</div>
-				<div id="container3 justify-content-center" class="mt-5">
+				<div id="container3" class="mt-5 justify-content-center">
 					<div class="row" id="home">
 						<div class="col-lg-1"></div>
 						<div class="col-lg-5 col-md-12 col-sm-12">
@@ -165,7 +165,7 @@
 							  <div class="card-body">
 							    <h5 class="card-title"><img src="assets/images/i.png"></h5>
 							    <h2 class="card-text">iTravel</h2>
-							    <a href="landing.html" class="btn btn-success">Visit</a>
+							    <a href="landing.html" class="wow animated pulse btn btn-success" data-wow-iteration="10">Visit</a>
 							    
 							  </div>
 							 
@@ -184,7 +184,7 @@
 							  <div class="card-body">
 							    <h5 class="card-title"><img src="assets/images/esr-for-dark-bg.png"></h5>
 							    <h2 class="card-text">ESR</h2>
-							    <a href="http://esr.epizy.com/capstone2proj/app/views/index.php" class="btn btn-success">Visit</a>
+							    <a href="http://esr.epizy.com/capstone2proj/app/views/index.php" class="wow animated pulse btn btn-success" data-wow-iteration="10">Visit</a>
 							    
 							  </div>
 							 
@@ -199,7 +199,7 @@
 					</div>
 					<div class="row" id="home">
 						<div class="col-lg-3"></div>
-						<div class="ml-5 col-lg-5 col-md-12 col-sm-12">
+						<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="jumbotron jumbotron-fluid jumbo">
 							<div class="card text-center">
 							  <div class="card-header">
@@ -208,7 +208,7 @@
 							  <div class="card-body">
 							    <h5 class="card-title"><img src="assets/images/v.png"></h5>
 							    <h2 class="card-text">Venture</h2>
-							    <a href="https://static-strength.000webhostapp.com/" class="btn btn-success">Visit</a>
+							    <a href="https://static-strength.000webhostapp.com/" class="wow animated pulse btn btn-success" data-wow-iteration="10">Visit</a>
 							    
 							  </div>
 							 
@@ -217,15 +217,15 @@
 							</div>
 							<p class="text-center">Technology:</p>
 
-							    <p class="text-center">Html CSS Bootsrap Php Jquery Mysql Laravel</p>
+							<p class="text-center">Html CSS Bootsrap Php Jquery Mysql Laravel</p>
 							    
 						</div>
 					</div>
 				</div>
 
 	<section id="contact">
-	  <div class="container-fluid mt-5">
-	    <p class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:pol.kharlo.villa@gmail.com" id="email">pol.kharlo.villa@gmail.com</a></p>
+	  <div class="container-fluid mt-5 mb-3">
+	    <p class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:flippinskip@gmail.com" id="email">click to send me an email</a></p>
 	    <ul class="social-media-buttons text-center mb-4">
 	    	<div class="row justify-content-center">
 		    	<li><a href="#"><img class="media1" src="assets/images/fb1.png"></a></li>
@@ -237,13 +237,31 @@
 	    		<a href="index.html"><img class="up" src="assets/images/arrow.png"></a>
 	    	</div>
 	  </div>
-	  <footer>Copyright &copy; | Pol Kharlo Villa</footer>
 	</section>
+	  <footer>Copyright &copy; | Pol Kharlo Villa</footer>
 </main>
-<script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>	
+<script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.min.js"></script>
+<script>
+new WOW().init();
+$(document).ready(function() {
+// $('#hide1').hide();
+    var offset = 250;
+    var duration = 500;
+   $(window).scroll(function() {
+      if($(this).scrollTop() > offset) {
+        $('.up').fadeIn(duration);
+      } else {
+       $('.up').fadeOut(duration);
+      }
+    });
+
+   $('.up').click(function(event) {
+      event.preventDefault();
+    $('html').animate({scrollTop: 0}, duration);
+      return false;
+    });
+  });
+</script>	
 </body>
 </html>
 	  					
