@@ -232,3 +232,10 @@ img{
 	height: 10px;
 
 }
+.skilllevel5{
+	/*background: #0fffb7;*/
+	background: linear-gradient(90deg, rgba(3, 169, 244, .2), rgba(255, 207, 36, .2), rgba(0, 255, 162, .2), rgba(0, 255, 0, .2));
+	width: 93%;
+	height: 10px;
+
+}
